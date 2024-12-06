@@ -1,0 +1,50 @@
+name: hr_app
+description: "A new Flutter project."
+
+publish_to: 'none' # Prevent publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  carousel_slider: ^4.2.0 # Ensure this version matches the latest available
+
+  cupertino_icons: ^1.0.8
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Declare image assets
+  assets:
+    - assets/images/icon.png
+    - assets/images/slide1.jpg
+    - assets/images/slide2.jpg
+    - assets/images/slide3.jpg
+
+  # Declare custom fonts
+  fonts:
+    - family: Hanuman
+      fonts:
+        - asset: assets/font/Hanuman-Black.ttf
+        - asset: assets/font/Hanuman-Black.ttf
+        - asset: assets/font/Hanuman-Light.ttf
+        - asset: assets/font/Hanuman-Thin.ttf
+          weight: 400
+    - family: Khmer Vanara
+      fonts:
+        - asset: assets/font/KhmerVanaraRegular.ttf
+          weight: 400
+    - family: DMSans
+      fonts: 
+        - asset: assets/font/DMSans-Light.ttf
